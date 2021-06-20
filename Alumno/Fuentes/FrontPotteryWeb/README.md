@@ -1,7 +1,7 @@
 ## Información del repositorio
 Proyecto final del curso. Frontend
 
-## Para clonar el repositorio
+## Al clonar el repositorio
 
 <p><b>Realizar:</b></p>
 <lu>
