@@ -1,0 +1,25 @@
+{
+  "name": "FrontPotteryWeb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "alpinejs": "^2.8.2",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.21.1",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
+    "vue": "^2.6.11",
+    "vue-paginate": "^3.6.0",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

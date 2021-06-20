@@ -1,0 +1,204 @@
+
+/* Fichero css con los estilos propios */
+
+
+/* #DDD6FE
+#8B5CF6
+#5B21B6  */
+
+
+.paginate-links{
+    width:100%;
+    list-style: none;
+    text-align: right;
+    margin-top: 10px;
+}
+.paginate-links li {
+    display: inline;
+    background-color:#DDD6FE ;
+    color:black;
+    padding:10px;
+    margin-left:3px;
+    margin-right: 3px;
+    border-radius: 3px;
+}
+
+.paginate-links a {
+    cursor:pointer;
+}
+
+.paginate-links li.active{
+    background-color: #7554A9;
+    color: white;
+}
+
+.paginate-links li.active a{
+    cursor: default;
+}
+
+.paginate-links li.disabled{
+    border: 1px solid;
+    border-color: #928DAD;
+    background-color: #D1D1D5;
+    color: #928DAD;
+}
+
+.paginate-links li.disabled a{
+    cursor: default;
+}
+
+.form-control :focus-within{
+    border-color: black;
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+.vueMsg {
+    cursor:pointer;
+}
+
+/*---------------------MODIFICACIONES PROPIAS DE ESTILO------------------------------------------*/
+/*------MIS COLORES-----------*/
+.pott-grey {
+    background-color: #F6F1E9 ;
+  }
+
+.pott-grey-med {
+  background-color: #DEDAD2 ;
+}
+
+.pott-ligth{
+    background-color: #DFCAAD;
+} 
+
+.pott-normal{
+    background-color: #D9A782;
+} 
+
+.msg-green-lit{
+    background-color: #DEF8EB;
+}
+
+.msg-green-med{
+    background-color: #4EDD96;
+}
+
+.msg-purple-full{
+    background-color: #7554A9;
+}
+
+
+/* Pequeña escala */
+.pott-dark-litt{
+    background-color: #CAA979;
+}
+
+.pott-dark-medd{
+    background-color: #A7895E;
+}
+.pott-dark-full{
+    background-color: #706049;
+}
+/* fin Pequeña escala */
+
+.border-pott-dark-full {
+    --tw-border-opacity: 1;
+    border-color: #6E4F22;
+  }
+
+/*------MIS FORMAS-----------*/
+.w-120{
+  width:48rem;
+}
+
+.h-120{
+    height: 38rem;
+}
+
+.aling-vert{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/**---------------PARA OVERLAY(CARGANDO)----------------------*/
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+  }
+  
+  .modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .modal-container {
+    width: 300px;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .modal-header h3 {
+    margin-top: 0;
+    /* color: #42b983; */
+    /* background-color: #706049; 
+    border-radius: 5px;*/
+    text-align: center;
+    color: #706049;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+   
+  }
+  
+  .modal-default-button {
+    float: right;
+  }
+  
+  /*
+   * The following styles are auto-applied to elements with
+   * transition="modal" when their visibility is toggled
+   * by Vue.js.
+   *
+   * You can easily play with the modal transition by editing
+   * these styles.
+   */
+  
+  .modal-enter {
+    opacity: 0;
+  }
+  
+  .modal-leave-active {
+    opacity: 0;
+  }
+  
+  .modal-enter .modal-container,
+  .modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }

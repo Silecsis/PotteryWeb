@@ -1,0 +1,11 @@
+/* Fichero de estilos que carga todos los demás ficheros css empleados. */
+
+
+
+/* ./src/index.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import './app.css';
+@import './styles.css';
