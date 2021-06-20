@@ -40,3 +40,13 @@ Si se despliega con backend de Heroku:
 
 ------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------
+PARA CAMBIAR EL ENVIO DE EMAILS DESDE UN CORREO REAL:
+	Primero: seguir estos pasos para activar la cuenta:
+		https://programacionymas.com/blog/como-enviar-mails-correos-desde-laravel 
+
+	Segundo, en el archivo .env de BackPotteryWeb se debe realizar los siguientes cambios:
+		MAIL_MAILER=smtp
+		MAIL_HOST=smtp.gmail.com
+		MAIL_PORT=587
+		MAIL_USERNAME=correo@gmail.com
+		MAIL_PASSWORD=claveDeSeguridadDada
